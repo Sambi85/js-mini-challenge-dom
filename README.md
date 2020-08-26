@@ -26,7 +26,12 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+  1. check .html, .js
+  2. run document.querySelector("#header") in chrome console
+  3. check if variable is reserved 
+  4. wrapped a function around the deliverable
+  5. function should return header;
+  6. Nope it's the script tag, move it below the body tags
 ```
 
 ## Deliverable 2
@@ -35,7 +40,8 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+1. used documentation
+2. document.querySelector("#header").style.color = 'red'
 ```
 
 ## Deliverable 3
@@ -57,6 +63,13 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
+1. uncomment console.log
+2. access player container
+3. for loop
+4. create div with class player and data number
+5. iterate through name, nickname, photo
+6. map player info to player Div with innerhtml
+7. .append player div to player container
 
 ```
 
@@ -68,5 +81,6 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 
 **YOUR NOTES**
 ```
-
+1. find player with document.querySelector(`[data-number="7"]`)
+2. remove with .remove()
 ```
